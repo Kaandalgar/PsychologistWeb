@@ -1,0 +1,37 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET
+**/bin/
+**/obj/
+
+# Node
+node_modules/
+**/node_modules/
+**/dist/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.production.local
+.env.development.local
+
+# User secrets / sensitive local config
+secrets.json
+
+# Uploaded user files
+PsychologistWeb.Api/wwwroot/uploads/
+
+# Local database files
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
